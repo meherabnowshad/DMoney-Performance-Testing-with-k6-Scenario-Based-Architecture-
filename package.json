@@ -1,0 +1,21 @@
+{
+  "name": "dmoney-k6-performance-testing",
+  "version": "1.0.0",
+  "description": "k6 Performance Testing for DMoney Mobile Financial Service Platform",
+  "main": "dmoney-performance-test.js",
+  "scripts": {
+    "seed": "node seed-users.js",
+    "test": "k6 run dmoney-performance-test.js",
+    "test:summary": "k6 run --summary-export=Reports/summary.json dmoney-performance-test.js"
+  },
+  "keywords": [
+    "k6",
+    "performance-testing",
+    "load-testing",
+    "dmoney",
+    "sdet"
+  ],
+  "author": "Nowshad",
+  "license": "ISC"
+}
+

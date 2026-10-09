@@ -1,0 +1,10 @@
+# macOS system files
+.DS_Store
+
+# Tool artifacts & runtime files
+.agent-browser/
+
+# Node dependencies
+node_modules/
+npm-debug.log*
+
